@@ -1,1 +1,1 @@
-+function updatePanelElements(e,t,n,a){PAGE.appGroups[e].items[t][n]=a}changeElements.forEach(function(e){Object.entries(e).forEach(function(t){t[1].forEach(function(t){updatePanelElements(Object.keys(e)[0]-1,t.item-1,t.attr,t.value)})})});
+function updatePanelElements(e,t,n,a){PAGE.appGroups[e].items[t][n]=a}changeElements.forEach(function(e){Object.entries(e).forEach(function(t){t[1].forEach(function(t){updatePanelElements(Object.keys(e)[0]-1,t.item-1,t.attr,t.value)})})});
